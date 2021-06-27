@@ -7,6 +7,7 @@ body {
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     color:#3a3a3a;
+    line-height: 1.6;
 }
 
 .banner {
@@ -117,10 +118,12 @@ figcaption {
     color:#239ab9;
     padding-top:20px;
     padding-left:6.5rem;
+    padding-bottom:10px;
 }
 
 .first-article p {
        padding-left:7rem;
+      
 }
 .color {
     color:#239ab9;
@@ -140,8 +143,21 @@ figcaption {
     padding-left:2%;
     padding-right:5%;
     padding-bottom: 2%;
+    margin-bottom:0;
+}
+.sidebar p {
+    padding-right:10rem;
 }
 
+.sidebar-second {
+    margin-top:-50px;
+    float: right;
+    width:30%;
+    /* padding-top:30px; */
+    padding-left:2%;
+    padding-right:5%;
+    padding-bottom: 2%;
+}
 .sidebar a {
     color:#52bad5;
 }
@@ -151,10 +167,10 @@ blockquote {
     color: #52bad5;
     font-size:20px;
     padding-left:13rem;
+    padding-bottom: 50px;
+    padding-top: 60px;
     margin:0;
-    /* margin-top: 10px;
-    margin-bottom: 2px; */
-    
+   
 }
 
 .second-article h5 {
@@ -172,13 +188,13 @@ footer {
     padding-top:30px;
     height: 275px;
     margin-top: -250px;
-    
-    
+   
+       
 }
 
 footer p {
     color:white;
-    padding: 15px 0 15px 0;
+    margin: 25px 35.5% 0 35.5%;
    }
 
 footer ul {
