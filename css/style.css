@@ -10,6 +10,30 @@ body {
     line-height: 1.6;
 }
 
+/* skip to content link */
+
+.hidden{
+   position:relative;
+   left: -100000px;
+   top:auto;
+
+}
+
+
+.hidden:focus {
+    left:0;
+}
+
+.sr-only {
+    position: absolute;
+    left: -100000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    
+}
+
 .banner {
     background-color:#2c9ab7;
     width:100%;
